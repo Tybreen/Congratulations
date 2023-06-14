@@ -6506,7 +6506,7 @@ p5.prototype.registerMethod('init', function p5PlayInit() {
 		});
 	};
 
-	this.p5play.playIntro = async function () {
+	/* this.p5play.playIntro = async function () {
 		if (document.getElementById('p5play-intro')) return;
 		pInst._incrementPreload();
 		let d = document.createElement('div');
@@ -6529,7 +6529,7 @@ p5.prototype.registerMethod('init', function p5PlayInit() {
 		d.remove();
 		document.getElementById('p5play-intro')?.remove();
 		pInst._decrementPreload();
-	};
+	}; */
 
 	{
 		let lh = location.hostname;
